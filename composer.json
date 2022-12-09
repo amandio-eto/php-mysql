@@ -1,0 +1,18 @@
+{
+    "name": "amandio/php-mysql",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Amandio\\PhpMysql\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "amandio.eto",
+            "email": "JoseAmandiodeAlmeida021099@gmail.com"
+        }
+    ],
+    "require": {
+        "roots/wp-password-bcrypt": "^1.1"
+    }
+}

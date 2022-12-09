@@ -1,0 +1,11 @@
+@startuml
+        node "Kode Programmer" as code
+        node "PDO" as pdo
+        node "PDO Driver" as driver
+        database "MYSQL" as mysql
+
+        code-->pdo
+        pdo-->driver
+        driver-->mysql
+   
+@enduml
